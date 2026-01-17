@@ -633,24 +633,7 @@ body {
 .footer-area {
     padding: 35px;
     flex-wrap: wrap;
-    animation: foo;
     background: linear-gradient(to bottom, #201f31, #2e2c41);
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
-    animation-timing-function: ease-in-out;
-}
-
-@keyframes foo {
-    from {
-
-        transform: translatey(200px);
-    }
-
-    to {
-
-        transform: translateY(0px);
-    }
-
 }
 
 .list-unstyled li a {
